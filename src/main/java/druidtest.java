@@ -12,11 +12,8 @@ public class druidtest {
 
 	public static void main(String[] args) {
 		JdbcUtil.initDataSource();
-		System.out.println("================1");
 		Connection connection = JdbcUtil.getDataSource();
-		System.out.println("================2");
 		Connection connection2 = JdbcUtil.getDataSource();
-		System.out.println("================3");
 	}
 
 
